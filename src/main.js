@@ -1,8 +1,8 @@
 
 const envFound = require('dotenv').config();
-var downloader = require('./downloadContentBot.js')
-var videoMaker = require('./videoMakerBot.js')
-var videoUploader = require('./videoUploaderBot.js')
+var downloader = require('./contentDownloader.js')
+var videoMaker = require('./videoMaker.js')
+var videoUploader = require('./videoUploader.js')
 var readline = require('readline')
 var exec = require('child_process').exec
 const { exit } = require('process')
